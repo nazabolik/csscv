@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:wght@300&family=Roboto:wght@100;300&display=swap');
+
+        body{
+            background-color: #f1f1f1;
+            color: black;
+
+            font-size:  16px;
+            font-weight: normal ;
+            font-family: 'Roboto', sans-serif;
+        }
+        .ava{
+            height: none;
+            width: 200px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+        
+        }
+        .info{
+            margin-bottom: 20px;
+            display: flex;
+        }
+        @media(max-width-700){
+            .info{
+                display: block;
+                text-align: center;
+            }
+        }
+        .info p{
+            color: #86898f;
+            margin: 0;
+            
+            font-weight: bold;
+            text-decoration: none;
+        
+        /*   text-transform: capitalize;*/
+        /*letter-spacing: 5px;
+        word-sacing*/
+
+        }
+        /*boxmodel*/
+        /* .social{
+            background: red;
+             padding: 15px; 
+            /* padding: 15px 20px 25px 30px; */
+            /* border: 5px solid blue;
+            margin: 20px;
+        } */ 
+        .container{
+            position: relative;
+            max-width: 750px;
+            margin: auto;
+        }
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: grey;
+}
+.bgy{
+    background: #fff9dc;
+}
+.bgg{
+    background: #e5ffe7;
+}
+.bgr{
+    background: #ffe5e5;
+}
+.card{
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.list {
+    padding: 0 20px;
+    text-align: center;
+    list-style: none;
+}
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.practic{
+list-style: none;
+padding: 0;
+}
+.practic li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px;
+}
+.contact h2{
+    text-align: center
+}
+.fg label{
+    display: block;
+    font-style: 14px;
+    color: #86898f;
+}
+.fg input,
+.fg textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+   background: transparent; 
+border-bottom: 1px solid #ccc;
+color: #000;
+padding: 15px 0 10px;
+outline: none;
+font-family: inherit;
+}
+.raw{ 
+    display: flex;
+    margin-bottom: 20px;
+}
+.raw > .fg{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.raw > .fg{
+    width: 50%;
+    margin-right: 20px;
+}
+.raw > .fg:first-child{
+    margin-right: 20px;
+}
+.tinfo{
+    margin-left: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    
+}
+.tinfo h4{
+    margin-bottom: 10px;
+}
+
+.btn{
+    background: #000;
+    color: #e5ffe7;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    border-radius: 10%;
+    border: none;
+    box-shadow: 4px 4px 14px #000;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.tinfo img {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+}
+.scrollup {
+    width: 30px;
+    height: 30px;
+    position: fixed; /* фиксированная позиция */
+    color: #fff; /* цвет текста */
+    background: #286090; /* цвет заднего фона */
+    right: 20px; /* расстояние от правого края */
+    bottom: 20px; /* расстояние от нижнего края */
+    padding: 4px 10px; /* отступы до содержимого блока */
+    font-size: 20px; /* размер шрифта (иконки) */
+ border-radius: 5%;
+ 
+    cursor: pointer; /* форма курсора */
+     /* не отображать элемент */
+    text-align: center; /*выравнивание содержимого элемента по центру */
+  }
+  .scrollup:hover {
+    box-shadow: 4px 4px 10px #86898f;
+    background-color: #000; /* цвет заднего фона при наведении */
+  }
